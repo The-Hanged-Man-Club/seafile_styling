@@ -97,7 +97,7 @@ A future script will automate:
 Planned usage:
 
 ```css
-npx newTheme daaTemplate.css [folderID] [folderName]
+npx newTheme [templateName] [folderID] [folderName]
 ```
 
 ---
