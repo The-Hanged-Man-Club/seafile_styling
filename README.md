@@ -59,7 +59,7 @@ This allows:
 
 ## 🧩 master.css
 
-`master.css` imports:
+`./theme/master.css` imports:
 
 - all global styles
 - all folder‑specific themes
