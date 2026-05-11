@@ -1,0 +1,110 @@
+/* ----------------------------------------------------
+DOC VIEWER — COMMENT EDITOR FIXES
+---------------------------------------------------- */
+
+/* Restore border around the cursed Slate.js comment editor */
+.comment-editor,
+.comment-editor-content,
+.article.comment-editor {
+  border: 1px solid var(--border-color) !important;
+  border-radius: 6px !important;
+  background: var(--bg-alt) !important;
+  padding: 6px 8px !important;
+}
+
+/* Placeholder text color */
+.comment-editor [data-slate-placeholder="true"] {
+  color: var(--text-muted) !important;
+  opacity: 0.8 !important;
+}
+
+/* Ensure comment editor text uses theme colors */
+.comment-editor * {
+  color: var(--text-color) !important;
+}
+
+/* ----------------------------------------------------
+DOC VIEWER — COMMENT SEND BUTTON
+---------------------------------------------------- */
+
+/* Fix the orange icon that leaks globally */
+.sdoc-comment-btn {
+  color: var(--accent-color) !important;
+  font-size: 18px !important;
+  padding: 4px !important;
+  cursor: pointer !important;
+}
+
+.sdoc-comment-btn:hover {
+  color: var(--accent-hover) !important;
+}
+
+/* ----------------------------------------------------
+DOC VIEWER — FILE TOOLBAR BUTTONS
+---------------------------------------------------- */
+
+/* Normalize toolbar buttons (Download, Share, Comment, Details) */
+.file-toolbar-btn,
+.file-details,
+.file-share,
+.file-comment,
+.file-download {
+  background: transparent !important;
+  border: none !important;
+  padding: 6px 10px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 4px !important;
+}
+
+/* Toolbar icons */
+.file-toolbar-btn i,
+.file-details i,
+.file-share i,
+.file-comment i,
+.file-download i {
+  color: var(--text-color) !important;
+  font-size: 16px !important;
+}
+
+/* Hover state */
+.file-toolbar-btn:hover i {
+  color: var(--accent-color) !important;
+}
+
+/* ----------------------------------------------------
+DOC VIEWER — COMMENT PANEL / SIDEBAR
+---------------------------------------------------- */
+
+.comment-list,
+.comment-panel,
+.comment-container {
+  background: var(--bg-alt) !important;
+  border-left: 1px solid var(--border-color) !important;
+}
+
+.comment-item {
+  border-bottom: 1px solid var(--border-color) !important;
+}
+
+/* ----------------------------------------------------
+DOC VIEWER — GENERAL VIEWER FIXES
+---------------------------------------------------- */
+
+/* Ensure viewer backgrounds match theme */
+.file-view,
+.file-view-content,
+.file-view-body,
+.pdf-viewer,
+.markdown-viewer,
+.sdoc-viewer {
+  background: var(--bg-color) !important;
+  color: var(--text-color) !important;
+}
+
+/* Fix weird padding inconsistencies */
+.file-view-content,
+.sdoc-viewer {
+  padding: 12px !important;
+}
