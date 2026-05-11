@@ -1,0 +1,10 @@
+/* Global base */
+@import url("./global/base.css");
+@import url("./global/dark.css");
+@import url("./global/typography.css");
+@import url("./global/bootstrap-overrides.css");
+@import url("./global/colors.css");
+@import url("./global/settings.css");
+
+/* Folder-specific themes */
+@import url("./folders/daa-mod.css");

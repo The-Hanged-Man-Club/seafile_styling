@@ -1,0 +1,31 @@
+/* ----------------------------------------------------
+GLOBAL BOOTSTRAP OVERRIDES
+---------------------------------------------------- */
+body[data-bs-theme="light"],
+body[data-bs-theme="dark"] {
+  --bs-body-bg: var(--bg-color) !important;
+  --bs-body-color: var(--text-color) !important;
+  background-color: var(--bg-color) !important;
+}
+
+/* Header fix */
+body[data-bs-theme="dark"] .navbar,
+body[data-bs-theme="dark"] .sf-header,
+body[data-bs-theme="dark"] header {
+  background-color: var(--bg-alt) !important;
+}
+
+/* Nav pills */
+body[data-bs-theme] .nav-pills {
+  --bs-nav-pills-link-active-bg: var(--accent-color) !important;
+  --bs-nav-pills-link-active-color: #fff !important;
+}
+
+/* Settings sidebar active indicator */
+body[data-bs-theme]
+  .side-panel
+  .side-nav
+  .side-nav-con
+  .nav-item.active::before {
+  background-color: var(--accent-color) !important;
+}

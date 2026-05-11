@@ -1,0 +1,68 @@
+/* ----------------------------------------------------
+FONT IMPORTS
+---------------------------------------------------- */
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;500;700&family=Lexend+Deca:wght@400;500;600;700&display=swap");
+
+/* ----------------------------------------------------
+GLOBAL ROOT VARIABLES (LIGHT MODE)
+---------------------------------------------------- */
+:root {
+  /* Typography */
+  --font-body: "Atkinson Hyperlegible", sans-serif;
+  --font-header: "Lexend Deca", sans-serif;
+  --font-size-base: 16px;
+  --font-size-small: 14px;
+  --font-size-large: 18px;
+  --line-height-base: 1.5;
+
+  /* Global link colors (light mode) */
+  --link-color: #3a4da8;
+  --link-hover: #5568d6;
+
+  /* Global palette (light mode) */
+  --bg-color: #f4f4f5;
+  --bg-alt: #ffffff;
+  --text-color: #1f1f20;
+  --text-muted: #5a5a5c;
+
+  --accent-color: #6a6f7a;
+  --accent-hover: #7a7f8a;
+
+  --border-color: #d7d7d9;
+
+  --input-bg: #ffffff;
+  --input-border: #cfcfd1;
+  --input-text: #1f1f20;
+
+  --sidebar-bg: #f0f0f1;
+  --sidebar-text: #2a2a2c;
+  --sidebar-hover: #e4e4e6;
+
+  --row-hover: var(--sidebar-hover);
+}
+
+/* ----------------------------------------------------
+GLOBAL BORDER RESET
+---------------------------------------------------- */
+*,
+*::before,
+*::after {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.table,
+.table * {
+  border: none !important;
+}
+
+.card,
+.panel,
+.navbar,
+.header,
+.sf-header,
+.side-panel,
+.side-nav,
+.side-nav-con {
+  border: none !important;
+}

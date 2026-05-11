@@ -1,0 +1,27 @@
+/* ----------------------------------------------------
+GLOBAL DARK MODE — Bootstrap 5.3 Corrected
+---------------------------------------------------- */
+body[data-bs-theme="dark"] {
+  --bg-color: #1e1f22;
+  --bg-alt: #25262a;
+  --text-color: #e4e4e7;
+  --text-muted: #a0a0a5;
+
+  --accent-color: #8b90a0;
+  --accent-hover: #9ba0b2;
+
+  --border-color: #2c2d31;
+
+  --input-bg: #2a2b2f;
+  --input-border: #3a3b40;
+  --input-text: #e4e4e7;
+
+  --sidebar-bg: #1b1c1f;
+  --sidebar-text: #dcdce0;
+  --sidebar-hover: #2a2b2f;
+
+  --link-color: #b8c7ff;
+  --link-hover: #dbe0ff;
+
+  --row-hover: var(--sidebar-hover);
+}

@@ -1,0 +1,222 @@
+/* ------------------------------
+DAA LIGHT MODE — Milkshake Blueberry v2
+------------------------------ */
+body[data-bs-theme="light"]:has(
+    a[href*="0782e8ae-0ff7-4ec2-a6ed-5ca70547c093/file"]
+  ) {
+  /* Core palette (Blueberry v2) */
+  --bg-color: #ece8f7;
+  --bg-alt: #ded7f0;
+  --text-color: #1a1d2b;
+  --text-muted: #6c6f85;
+
+  /* Teal system */
+  --link-color: #5b8b92;
+  --link-hover: #74a5ac;
+  --icon-color: #5b8b92;
+  --heading-color: #5b8b92;
+
+  --accent-color: #5b8b92;
+  --accent-hover: #74a5ac;
+
+  /* Inputs */
+  --input-bg: #f4f4f5;
+  --input-border: #d2c9ea;
+  --input-text: #1a1d2b;
+
+  /* Sidebar */
+  --sidebar-bg: #ded7f0;
+  --sidebar-text: #1a1d2b;
+  --sidebar-hover: #d2c9ea;
+
+  /* Hover */
+  --row-hover: #ded7f0;
+
+  /* Borders */
+  --border-color: #d2c9ea;
+
+  /* Bootstrap variable overrides */
+  --bs-body-bg: var(--bg-color);
+  --bs-nav-hover-bg: var(--sidebar-hover);
+  --bs-nav-link-hover-color: var(--link-hover);
+  --bs-table-hover-bg: var(--row-hover);
+  --bs-table-hover-color: var(--link-hover);
+  --bs-table-color: var(--text-color);
+  --bs-border-color: var(--border-color);
+  --bs-navbar-color: var(--icon-color);
+  --bs-navbar-hover-color: var(--link-hover);
+  --bs-navbar-active-color: var(--accent-color);
+  --bs-dropdown-bg: var(--bg-alt);
+  --bs-dropdown-link-hover-bg: var(--row-hover);
+  --bs-dropdown-link-hover-color: var(--link-hover);
+  --bs-link-color: var(--link-color);
+  --bs-link-hover-color: var(--link-hover);
+}
+
+/* ------------------------------
+DAA DARK MODE — Arcane
+------------------------------ */
+body[data-bs-theme="dark"]:has(
+    a[href*="0782e8ae-0ff7-4ec2-a6ed-5ca70547c093/file"]
+  ) {
+  /* Core palette */
+  --bg-color: #1f192a;
+  --bg-alt: #322a43;
+
+  --text-color: #f4f4f5;
+  --text-muted: #b28dad;
+
+  /* Teal system */
+  --link-color: #74a5ac;
+  --link-hover: #9bc3c9;
+  --icon-color: #74a5ac;
+  --heading-color: #9bc3c9;
+
+  /* Pink accent */
+  --accent-color: #74a5ac;
+  --accent-hover: #9bc3c9;
+
+  /* Inputs */
+  --input-bg: #1f192a;
+  --input-border: #5a2f73;
+  --input-text: #f4f4f5;
+
+  /* Sidebar */
+  --sidebar-bg: #1f192a;
+  --sidebar-text: #f4f4f5;
+  --sidebar-hover: #322a43;
+
+  /* Hover */
+  --row-hover: #322a43;
+
+  /* Borders */
+  --border-color: #776f87;
+
+  /* Bootstrap variable overrides */
+  --bs-nav-hover-bg: var(--sidebar-hover);
+  --bs-nav-link-hover-color: var(--link-hover);
+  --bs-table-hover-bg: var(--row-hover);
+  --bs-table-hover-color: var(--link-hover);
+  --bs-table-color: var(--text-color);
+  --bs-border-color: var(--border-color);
+  --bs-navbar-color: var(--icon-color);
+  --bs-navbar-hover-color: var(--link-hover);
+  --bs-navbar-active-color: var(--accent-color);
+  --bs-dropdown-bg: var(--bg-alt);
+  --bs-dropdown-link-hover-bg: var(--row-hover);
+  --bs-dropdown-link-hover-color: var(--link-hover);
+  --bs-link-color: var(--link-color);
+  --bs-link-hover-color: var(--link-hover);
+}
+
+/* ----------------------------------------------------
+DAA — SIDEBAR (including UL fix)
+---------------------------------------------------- */
+
+/* Sidebar UL background fix */
+body[data-bs-theme="light"]:has(
+    a[href*="0782e8ae-0ff7-4ec2-a6ed-5ca70547c093/file"]
+  )
+  .side-panel
+  ul,
+body[data-bs-theme="light"]:has(
+    a[href*="0782e8ae-0ff7-4ec2-a6ed-5ca70547c093/file"]
+  )
+  .nav-container,
+body[data-bs-theme="light"]:has(
+    a[href*="0782e8ae-0ff7-4ec2-a6ed-5ca70547c093/file"]
+  )
+  .side-nav {
+  background: var(--bg-color) !important;
+}
+
+/* Sidebar panel */
+body:has(a[href*="0782e8ae-0ff7-4ec2-a6ed-5ca70547c093/file"]) .side-panel {
+  background: var(--sidebar-bg) !important;
+}
+
+/* Sidebar links */
+body:has(a[href*="0782e8ae-0ff7-4ec2-a6ed-5ca70547c093/file"])
+  .side-nav
+  .nav-item
+  a {
+  color: var(--sidebar-text) !important;
+}
+
+/* Sidebar hover */
+body:has(a[href*="0782e8ae-0ff7-4ec2-a6ed-5ca70547c093/file"])
+  .side-nav
+  .nav-item:hover {
+  background: var(--sidebar-hover) !important;
+}
+
+/* Fix white background behind Files nav-item */
+body[data-bs-theme="light"]:has(
+    a[href*="0782e8ae-0ff7-4ec2-a6ed-5ca70547c093/file"]
+  )
+  .side-panel
+  .side-nav
+  .nav-item {
+  background: var(--bg-color) !important;
+}
+
+/* ----------------------------------------------------
+DAA — HEADER OVERRIDES
+---------------------------------------------------- */
+
+body:has(a[href*="0782e8ae-0ff7-4ec2-a6ed-5ca70547c093/file"]) #header,
+body:has(a[href*="0782e8ae-0ff7-4ec2-a6ed-5ca70547c093/file"]) .top-header,
+body:has(a[href*="0782e8ae-0ff7-4ec2-a6ed-5ca70547c093/file"]) .navbar,
+body:has(a[href*="0782e8ae-0ff7-4ec2-a6ed-5ca70547c093/file"]) .sf-header {
+  background: var(--bg-alt) !important;
+  color: var(--icon-color) !important;
+}
+
+/* Header SVG recolor */
+body:has(a[href*="0782e8ae-0ff7-4ec2-a6ed-5ca70547c093/file"]) #header svg *,
+body:has(a[href*="0782e8ae-0ff7-4ec2-a6ed-5ca70547c093/file"])
+  .top-header
+  svg
+  * {
+  fill: var(--icon-color) !important;
+  stroke: var(--icon-color) !important;
+}
+
+/* ----------------------------------------------------
+DAA — ICONS (font icons)
+---------------------------------------------------- */
+
+body:has(a[href*="0782e8ae-0ff7-4ec2-a6ed-5ca70547c093/file"]) .sf3-font,
+body:has(a[href*="0782e8ae-0ff7-4ec2-a6ed-5ca70547c093/file"]) .sf-icon,
+body:has(a[href*="0782e8ae-0ff7-4ec2-a6ed-5ca70547c093/file"]) .fa {
+  color: var(--icon-color) !important;
+}
+
+/* ----------------------------------------------------
+DAA — MULTICOLOR SVG ICON FIX
+---------------------------------------------------- */
+
+body:has(a[href*="0782e8ae-0ff7-4ec2-a6ed-5ca70547c093/file"])
+  svg.seafile-multicolor-icon
+  * {
+  fill: var(--icon-color) !important;
+  stroke: var(--icon-color) !important;
+}
+
+/* ----------------------------------------------------
+DAA — POPUP MENU FIX (Settings / System Admin / Logout)
+---------------------------------------------------- */
+
+body:has(a[href*="0782e8ae-0ff7-4ec2-a6ed-5ca70547c093/file"])
+  #user-info-popup
+  .item {
+  background: var(--bg-alt) !important;
+  color: var(--text-color) !important;
+}
+
+body:has(a[href*="0782e8ae-0ff7-4ec2-a6ed-5ca70547c093/file"])
+  #user-info-popup
+  .item:hover {
+  background: var(--row-hover) !important;
+  color: var(--link-hover) !important;
+}

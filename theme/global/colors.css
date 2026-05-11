@@ -1,0 +1,48 @@
+/* ----------------------------------------------------
+GLOBAL COLORS + HOVERS
+---------------------------------------------------- */
+
+/* Standard links */
+a {
+  color: var(--accent-color) !important;
+}
+a:hover {
+  color: var(--accent-hover) !important;
+}
+
+/* File links (merged from file-links.css) */
+body[data-bs-theme] .table td a,
+body[data-bs-theme] .dirent-table td a,
+body[data-bs-theme] .repo-item td a {
+  color: var(--link-color) !important;
+}
+
+body[data-bs-theme] .table td a:hover,
+body[data-bs-theme] .dirent-table td a:hover,
+body[data-bs-theme] .repo-item td a:hover {
+  color: var(--link-hover) !important;
+}
+
+/* Sidebar */
+.sidebar {
+  background: var(--sidebar-bg) !important;
+  color: var(--sidebar-text) !important;
+}
+.sidebar a:hover {
+  background: var(--sidebar-hover) !important;
+}
+
+/* Table hover */
+.table-hover tbody tr:hover {
+  background: var(--row-hover) !important;
+}
+
+/* Borders */
+hr,
+.divider,
+.bordered,
+.sf-heading,
+.table th,
+.table td {
+  border-color: var(--border-color) !important;
+}
