@@ -39,11 +39,18 @@ DOC VIEWER — FILE TOOLBAR BUTTONS
 /* Hover — both icon types */
 .file-view-header .file-toolbar-btn:hover i,
 .file-view-header .file-toolbar-btn:hover svg,
-.file-view-header .file-toolbar-btn:hover .seafile-multicolor-icon {
+.file-view-header .file-toolbar-btn:hover .seafile-multicolor-icon,
+.file-internal-link,
+.file-star {
   color: var(--accent-color) !important;
   fill: var(--accent-color) !important;
 }
 
 .file-view-header .file-toolbar-btn:hover svg .st0 {
   fill: var(--accent-color) !important;
+}
+
+.seafile-multicolor-icon * {
+  visibility: visible !important;
+  opacity: 1 !important;
 }
