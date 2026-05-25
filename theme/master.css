@@ -8,4 +8,6 @@
 @import url("./global/doc-viewer.css");
 
 /* Folder-specific themes */
+@import url("./folders/contributor-handbook.css");
 @import url("./folders/daa-mod.css");
+@import url("./folders/daa-shared.css");
