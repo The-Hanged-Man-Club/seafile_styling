@@ -44,7 +44,7 @@ GLOBAL ROOT VARIABLES (LIGHT MODE)
 /* ----------------------------------------------------
 GLOBAL BORDER RESET
 ---------------------------------------------------- */
-.card,
+/* .card,
 .panel,
 .navbar,
 .header,
@@ -56,4 +56,4 @@ GLOBAL BORDER RESET
 .table * {
   border: none !important;
   box-shadow: none !important;
-}
+} */
