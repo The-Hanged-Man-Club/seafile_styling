@@ -10,7 +10,7 @@ DOC VIEWER — FILE TOOLBAR BUTTONS
   align-items: center !important;
   justify-content: center !important;
   gap: 4px !important;
-  color: #999 !important;
+  color: var(--accent-color) !important;
 }
 
 /* Font icons */
@@ -20,20 +20,20 @@ DOC VIEWER — FILE TOOLBAR BUTTONS
 .file-comment i,
 .file-download i {
   background: transparent !important;
-  color: #999 !important;
+  color: var(--accent-color) !important;
   font-size: 16px !important;
 }
 
 /* SVG icons */
 .file-view-header .file-toolbar-btn svg,
 .file-view-header .file-toolbar-btn .seafile-multicolor-icon {
-  fill: #999 !important;
-  color: #999 !important;
+  fill: var(--accent-color) !important;
+  color: var(--accent-color) !important;
 }
 
 /* Override btn-secondary forcing white */
 .file-view-header .file-toolbar-btn.btn-secondary {
-  color: #999 !important;
+  color: var(--accent-color) !important;
 }
 
 /* Hover — both icon types */
