@@ -1,3 +1,45 @@
-body[data-bs-theme] .btn {
+/* ----------------------------------------------------
+DOC VIEWER — FILE TOOLBAR BUTTONS
+---------------------------------------------------- */
+
+.file-view-header .file-toolbar-btn {
   background: transparent !important;
+  border: none !important;
+  padding: 6px 10px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 4px !important;
+  color: #999 !important;
+}
+
+/* Font icons */
+.file-view-header .file-toolbar-btn i,
+.file-details i,
+.file-share i,
+.file-comment i,
+.file-download i {
+  background: transparent !important;
+  color: #999 !important;
+  font-size: 16px !important;
+}
+
+/* SVG icons */
+.file-view-header .file-toolbar-btn svg,
+.file-view-header .file-toolbar-btn .seafile-multicolor-icon {
+  fill: #999 !important;
+  color: #999 !important;
+}
+
+/* Override btn-secondary forcing white */
+.file-view-header .file-toolbar-btn.btn-secondary {
+  color: #999 !important;
+}
+
+/* Hover — both icon types */
+.file-view-header .file-toolbar-btn:hover i,
+.file-view-header .file-toolbar-btn:hover svg,
+.file-view-header .file-toolbar-btn:hover .seafile-multicolor-icon {
+  color: var(--accent-color) !important;
+  fill: var(--accent-color) !important;
 }
