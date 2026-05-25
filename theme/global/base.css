@@ -44,18 +44,6 @@ GLOBAL ROOT VARIABLES (LIGHT MODE)
 /* ----------------------------------------------------
 GLOBAL BORDER RESET
 ---------------------------------------------------- */
-*:not(svg):not(svg *),
-*:not(svg)::before,
-*:not(svg)::after {
-  border: none !important;
-  box-shadow: none !important;
-}
-
-.table,
-.table * {
-  border: none !important;
-}
-
 .card,
 .panel,
 .navbar,
@@ -63,6 +51,9 @@ GLOBAL BORDER RESET
 .sf-header,
 .side-panel,
 .side-nav,
-.side-nav-con {
+.side-nav-con,
+.table,
+.table * {
   border: none !important;
+  box-shadow: none !important;
 }

@@ -1,11 +1,11 @@
 /* Global base */
 @import url("./global/base.css");
-@import url("./global/dark.css");
+/* @import url("./global/dark.css");
 @import url("./global/typography.css");
 @import url("./global/bootstrap-overrides.css");
 @import url("./global/colors.css");
 @import url("./global/settings-page.css");
-@import url("./global/doc-viewer.css");
+@import url("./global/doc-viewer.css"); */
 
 /* Folder-specific themes */
 @import url("./folders/contributor-handbook.css");
