@@ -44,9 +44,9 @@ GLOBAL ROOT VARIABLES (LIGHT MODE)
 /* ----------------------------------------------------
 GLOBAL BORDER RESET
 ---------------------------------------------------- */
-*,
-*::before,
-*::after {
+*:not(svg):not(svg *),
+*:not(svg)::before,
+*:not(svg)::after {
   border: none !important;
   box-shadow: none !important;
 }
