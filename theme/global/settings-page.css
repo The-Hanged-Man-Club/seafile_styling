@@ -31,12 +31,14 @@ body[data-bs-theme] .form-control {
   border: 1px solid var(--input-border) !important;
 }
 
-body[data-bs-theme] .btn {
+body[data-bs-theme]
+  .btn:not(.file-toolbar-btn):not(.btn-secondary):not(.btn-icon) {
   background: var(--accent-color) !important;
   border-color: var(--accent-color) !important;
   color: #fff !important;
 }
 
-body[data-bs-theme] .btn:hover {
+body[data-bs-theme]
+  .btn:not(.file-toolbar-btn):not(.btn-secondary):not(.btn-icon):hover {
   background: var(--accent-hover) !important;
 }
