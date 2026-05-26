@@ -1,0 +1,7 @@
+/* ----------------------------------------------------
+LOGIN PAGE STYLING
+---------------------------------------------------- */
+#wrapper {
+  background-image: none !important;
+  background-color: var(--bg-color) !important;
+}
