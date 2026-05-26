@@ -42,6 +42,7 @@ DOC VIEWER — FILE TOOLBAR BUTTONS
 .file-view-header .file-toolbar-btn:hover .seafile-multicolor-icon,
 .file-internal-link,
 .file-star {
+  background: #333 !important;
   color: #fff !important;
   fill: #fff !important;
 }
@@ -50,6 +51,8 @@ DOC VIEWER — FILE TOOLBAR BUTTONS
 .file-view-header .file-toolbar-btn svg g path.st0,
 .file-view-header .file-toolbar-btn:hover svg path.st0,
 .file-view-header .file-toolbar-btn:hover svg g path.st0 {
+  background: #333 !important;
+  color: #fff !important;
   fill: #fff !important;
 }
 
