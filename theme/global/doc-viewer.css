@@ -3,14 +3,14 @@ DOC VIEWER — FILE TOOLBAR BUTTONS
 ---------------------------------------------------- */
 
 .file-view-header .file-toolbar-btn {
-  background: #333 !important;
+  background: transparent !important;
   border: none !important;
   padding: 6px 10px !important;
   display: inline-flex !important;
   align-items: center !important;
   justify-content: center !important;
   gap: 4px !important;
-  color: #fff !important;
+  color: var(--accent-color) !important;
 }
 
 /* Font icons */
@@ -19,21 +19,21 @@ DOC VIEWER — FILE TOOLBAR BUTTONS
 .file-share i,
 .file-comment i,
 .file-download i {
-  background: #333 !important;
-  color: #fff !important;
+  background: transparent !important;
+  color: var(--accent-color) !important;
   font-size: 16px !important;
 }
 
 /* SVG icons */
 .file-view-header .file-toolbar-btn svg,
 .file-view-header .file-toolbar-btn .seafile-multicolor-icon {
-  fill: #fff !important;
-  color: #fff !important;
+  fill: var(--accent-color) !important;
+  color: var(--accent-color) !important;
 }
 
 /* Override btn-secondary forcing white */
 .file-view-header .file-toolbar-btn.btn-secondary {
-  color: #fff !important;
+  color: var(--accent-color) !important;
 }
 
 /* Hover — both icon types */
@@ -42,18 +42,18 @@ DOC VIEWER — FILE TOOLBAR BUTTONS
 .file-view-header .file-toolbar-btn:hover .seafile-multicolor-icon,
 .file-internal-link,
 .file-star {
-  background: #333 !important;
-  color: #fff !important;
-  fill: #fff !important;
+  background: transparent !important;
+  color: var(--accent-color) !important;
+  fill: var(--accent-color) !important;
 }
 
 .file-view-header .file-toolbar-btn svg path.st0,
 .file-view-header .file-toolbar-btn svg g path.st0,
 .file-view-header .file-toolbar-btn:hover svg path.st0,
 .file-view-header .file-toolbar-btn:hover svg g path.st0 {
-  background: #333 !important;
-  color: #fff !important;
-  fill: #fff !important;
+  background: transparent !important;
+  color: var(--accent-color) !important;
+  fill: var(--accent-color) !important;
 }
 
 .seafile-multicolor-icon * {
