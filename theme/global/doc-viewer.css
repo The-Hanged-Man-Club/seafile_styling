@@ -3,7 +3,7 @@ DOC VIEWER — FILE TOOLBAR BUTTONS
 ---------------------------------------------------- */
 
 .file-view-header .file-toolbar-btn {
-  background: #fff !important;
+  background: #f4f4f5 !important;
   border: none !important;
   padding: 6px 10px !important;
   display: inline-flex !important;
@@ -19,7 +19,7 @@ DOC VIEWER — FILE TOOLBAR BUTTONS
 .file-share i,
 .file-comment i,
 .file-download i {
-  background: #fff !important;
+  background: #f4f4f5 !important;
   color: var(--accent-color) !important;
   font-size: 16px !important;
 }
@@ -42,7 +42,7 @@ DOC VIEWER — FILE TOOLBAR BUTTONS
 .file-view-header .file-toolbar-btn:hover .seafile-multicolor-icon,
 .file-internal-link,
 .file-star {
-  background: #fff !important;
+  background: #f4f4f5 !important;
   color: var(--accent-color) !important;
   fill: var(--accent-color) !important;
 }
@@ -51,7 +51,7 @@ DOC VIEWER — FILE TOOLBAR BUTTONS
 .file-view-header .file-toolbar-btn svg g path.st0,
 .file-view-header .file-toolbar-btn:hover svg path.st0,
 .file-view-header .file-toolbar-btn:hover svg g path.st0 {
-  background: #fff !important;
+  background: #f4f4f5 !important;
   color: var(--accent-color) !important;
   fill: var(--accent-color) !important;
 }
@@ -61,8 +61,9 @@ DOC VIEWER — FILE TOOLBAR BUTTONS
   opacity: 1 !important;
 }
 
-.file-view-header .file-toolbar-btn svg,
-.file-view-header .file-toolbar-btn .seafile-multicolor-icon {
-  height: 24px !important;
-  width: 24px !important;
+.file-view-header .file-toolbar-btn svg.seafile-multicolor-icon {
+  height: 1.2rem !important;
+  width: 1.2rem !important;
+  min-height: 1.2rem !important;
+  min-width: 1.2rem !important;
 }
