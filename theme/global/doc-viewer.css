@@ -70,3 +70,44 @@ DOC VIEWER — FILE TOOLBAR BUTTONS
   min-height: 1.2rem !important;
   min-width: 1.2rem !important;
 }
+
+/* ----------------------------------------------------
+DOC VIEWER — COMMENT EDITOR FIXES
+---------------------------------------------------- */
+
+/* Restore border around the cursed Slate.js comment editor */
+.comment-editor,
+.comment-editor-content,
+.article.comment-editor {
+  border: 1px solid var(--accent-color) !important;
+  border-radius: 6px !important;
+  background: #f4f4f5 !important;
+  padding: 6px 8px !important;
+}
+
+/* Placeholder text color */
+.comment-editor [data-slate-placeholder="true"] {
+  color: var(--text-muted) !important;
+  opacity: 0.8 !important;
+}
+
+/* Ensure comment editor text uses theme colors */
+.comment-editor * {
+  color: var(--text-color) !important;
+}
+
+/* ----------------------------------------------------
+DOC VIEWER — COMMENT SEND BUTTON
+---------------------------------------------------- */
+
+/* Fix the orange icon that leaks globally */
+.sdoc-comment-btn {
+  color: var(--accent-color) !important;
+  font-size: 18px !important;
+  padding: 4px !important;
+  cursor: pointer !important;
+}
+
+.sdoc-comment-btn:hover {
+  color: var(--accent-hover) !important;
+}

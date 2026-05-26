@@ -26,6 +26,7 @@ body[data-bs-theme]
   .side-panel
   .side-nav
   .side-nav-con
-  .nav-item.active::before {
+  .nav-item.active::before,
+.tree-node-hight-light::before {
   background-color: var(--accent-color) !important;
 }

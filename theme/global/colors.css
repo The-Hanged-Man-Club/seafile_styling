@@ -46,3 +46,8 @@ hr,
 .table td {
   border-color: var(--border-color) !important;
 }
+
+/* Share links title */
+.op-target {
+  color: var(--accent-color) !important;
+}

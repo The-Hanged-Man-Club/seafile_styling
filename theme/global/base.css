@@ -39,6 +39,8 @@ GLOBAL ROOT VARIABLES (LIGHT MODE)
   --sidebar-hover: #e4e4e6;
 
   --row-hover: var(--sidebar-hover);
+
+  --bs-link-color: var(--accent-color);
 }
 
 /* ----------------------------------------------------
