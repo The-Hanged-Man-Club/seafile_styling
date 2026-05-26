@@ -29,8 +29,6 @@ DOC VIEWER — FILE TOOLBAR BUTTONS
 .file-view-header .file-toolbar-btn .seafile-multicolor-icon {
   fill: var(--accent-color) !important;
   color: var(--accent-color) !important;
-  width: 24px !important;
-  height: 24px !important;
 }
 
 /* Override btn-secondary forcing white */
@@ -61,4 +59,10 @@ DOC VIEWER — FILE TOOLBAR BUTTONS
 .seafile-multicolor-icon * {
   visibility: visible !important;
   opacity: 1 !important;
+}
+
+.file-view-header .file-toolbar-btn svg,
+.file-view-header .file-toolbar-btn .seafile-multicolor-icon {
+  height: 24px !important;
+  width: 24px !important;
 }
