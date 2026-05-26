@@ -50,7 +50,8 @@ DOC VIEWER — FILE TOOLBAR BUTTONS
 .file-view-header .file-toolbar-btn svg path.st0,
 .file-view-header .file-toolbar-btn svg g path.st0,
 .file-view-header .file-toolbar-btn:hover svg path.st0,
-.file-view-header .file-toolbar-btn:hover svg g path.st0 {
+.file-view-header .file-toolbar-btn:hover svg g path.st0,
+.seafile-multicolor-icon-double-arrow-down {
   background: #f4f4f5 !important;
   color: var(--accent-color) !important;
   fill: var(--accent-color) !important;
@@ -61,7 +62,8 @@ DOC VIEWER — FILE TOOLBAR BUTTONS
   opacity: 1 !important;
 }
 
-.file-view-header .file-toolbar-btn svg.seafile-multicolor-icon {
+.file-view-header .file-toolbar-btn svg.seafile-multicolor-icon,
+.seafile-multicolor-icon-double-arrow-down {
   height: 1.2rem !important;
   width: 1.2rem !important;
   min-height: 1.2rem !important;
