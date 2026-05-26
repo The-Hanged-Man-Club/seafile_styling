@@ -51,7 +51,8 @@ DOC VIEWER — FILE TOOLBAR BUTTONS
 .file-view-header .file-toolbar-btn svg g path.st0,
 .file-view-header .file-toolbar-btn:hover svg path.st0,
 .file-view-header .file-toolbar-btn:hover svg g path.st0,
-.seafile-multicolor-icon-double-arrow-down {
+.seafile-multicolor-icon-double-arrow-down,
+#unfold-onlyoffice-file-view-header {
   background: #f4f4f5 !important;
   color: var(--accent-color) !important;
   fill: var(--accent-color) !important;
