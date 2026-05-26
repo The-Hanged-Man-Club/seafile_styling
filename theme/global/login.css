@@ -5,3 +5,15 @@ LOGIN PAGE STYLING
   background-image: none !important;
   background-color: var(--bg-color) !important;
 }
+
+#login-bottom .bottom-item {
+  border-right: 1px solid var(--accent-color) !important;
+}
+
+#login-bottom .bottom-item:last-child {
+  border-right: none !important;
+}
+
+#login-bottom a {
+  color: var(--link-color) !important;
+}
