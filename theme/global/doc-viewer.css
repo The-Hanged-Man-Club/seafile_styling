@@ -3,7 +3,7 @@ DOC VIEWER — FILE TOOLBAR BUTTONS
 ---------------------------------------------------- */
 
 .file-view-header .file-toolbar-btn {
-  background: #999 !important;
+  background: #333 !important;
   border: none !important;
   padding: 6px 10px !important;
   display: inline-flex !important;
@@ -19,7 +19,7 @@ DOC VIEWER — FILE TOOLBAR BUTTONS
 .file-share i,
 .file-comment i,
 .file-download i {
-  background: #999 !important;
+  background: #333 !important;
   color: #fff !important;
   font-size: 16px !important;
 }
@@ -46,7 +46,10 @@ DOC VIEWER — FILE TOOLBAR BUTTONS
   fill: #fff !important;
 }
 
-.file-view-header .file-toolbar-btn:hover svg .st0 {
+.file-view-header .file-toolbar-btn svg path.st0,
+.file-view-header .file-toolbar-btn svg g path.st0,
+.file-view-header .file-toolbar-btn:hover svg path.st0,
+.file-view-header .file-toolbar-btn:hover svg g path.st0 {
   fill: #fff !important;
 }
 
