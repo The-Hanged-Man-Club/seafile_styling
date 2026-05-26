@@ -3,6 +3,9 @@ DAA LIGHT MODE — Milkshake Blueberry v2
 ------------------------------ */
 body[data-bs-theme="light"]:has(
     a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/Contributor Handbook/"]
+  ),
+body[data-bs-theme="light"]:has(
+    a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/file/"]
   ) {
   /* Core palette (Blueberry v2) */
   --bg-color: #ece8f7;
@@ -120,11 +123,24 @@ body[data-bs-theme="light"]:has(
   .side-panel
   ul,
 body[data-bs-theme="light"]:has(
+    a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/file/"]
+  )
+  .side-panel
+  ul,
+body[data-bs-theme="light"]:has(
     a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/Contributor Handbook/"]
   )
   .nav-container,
 body[data-bs-theme="light"]:has(
+    a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/file/"]
+  )
+  .nav-container,
+body[data-bs-theme="light"]:has(
     a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/Contributor Handbook/"]
+  )
+  .side-nav,
+body[data-bs-theme="light"]:has(
+    a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/file/"]
   )
   .side-nav {
   background: var(--bg-color) !important;
@@ -132,12 +148,17 @@ body[data-bs-theme="light"]:has(
 
 /* Sidebar panel */
 body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/Contributor Handbook/"])
-  .side-panel {
+  .side-panel,
+body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/file/"]) .side-panel {
   background: var(--sidebar-bg) !important;
 }
 
 /* Sidebar links */
 body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/Contributor Handbook/"])
+  .side-nav
+  .nav-item
+  a,
+body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/file/"])
   .side-nav
   .nav-item
   a {
@@ -147,6 +168,9 @@ body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/Contributor Handbook/"])
 /* Sidebar hover */
 body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/Contributor Handbook/"])
   .side-nav
+  .nav-item:hover,
+body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/file/"])
+  .side-nav
   .nav-item:hover {
   background: var(--sidebar-hover) !important;
 }
@@ -154,6 +178,12 @@ body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/Contributor Handbook/"])
 /* Fix white background behind Files nav-item */
 body[data-bs-theme="light"]:has(
     a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/Contributor Handbook/"]
+  )
+  .side-panel
+  .side-nav
+  .nav-item,
+body[data-bs-theme="light"]:has(
+    a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/file/"]
   )
   .side-panel
   .side-nav
@@ -167,12 +197,16 @@ DAA — HEADER OVERRIDES
 
 body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/Contributor Handbook/"])
   #header,
+body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/file/"]) #header,
 body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/Contributor Handbook/"])
   .top-header,
+body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/file/"]) .top-header,
 body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/Contributor Handbook/"])
   .navbar,
+body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/file/"]) .navbar,
 body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/Contributor Handbook/"])
-  .sf-header {
+  .sf-header,
+body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/file/"]) .sf-header {
   background: var(--bg-alt) !important;
   color: var(--icon-color) !important;
 }
@@ -182,7 +216,12 @@ body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/Contributor Handbook/"])
   #header
   svg
   *,
+body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/file/"]) #header svg *,
 body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/Contributor Handbook/"])
+  .top-header
+  svg
+  *,
+body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/file/"])
   .top-header
   svg
   * {
@@ -196,10 +235,13 @@ DAA — ICONS (font icons)
 
 body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/Contributor Handbook/"])
   .sf3-font,
+body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/file/"]) .sf3-font,
 body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/Contributor Handbook/"])
   .sf-icon,
+body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/file/"]) .sf-icon,
 body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/Contributor Handbook/"])
-  .fa {
+  .fa,
+body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/file/"]) .fa {
   color: var(--icon-color) !important;
 }
 
@@ -208,6 +250,9 @@ DAA — MULTICOLOR SVG ICON FIX
 ---------------------------------------------------- */
 
 body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/Contributor Handbook/"])
+  svg.seafile-multicolor-icon
+  *,
+body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/file/"])
   svg.seafile-multicolor-icon
   * {
   fill: var(--icon-color) !important;
@@ -220,12 +265,18 @@ DAA — POPUP MENU FIX (Settings / System Admin / Logout)
 
 body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/Contributor Handbook/"])
   #user-info-popup
+  .item,
+body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/file/"])
+  #user-info-popup
   .item {
   background: var(--bg-alt) !important;
   color: var(--text-color) !important;
 }
 
 body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/Contributor Handbook/"])
+  #user-info-popup
+  .item:hover,
+body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/file/"])
   #user-info-popup
   .item:hover {
   background: var(--row-hover) !important;
