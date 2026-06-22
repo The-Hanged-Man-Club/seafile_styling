@@ -1,7 +1,7 @@
 /* ------------------------------
 DAA LIGHT MODE — Milkshake Blueberry v2
 ------------------------------ */
-body[data-bs-theme="light"]:has(a[href*="{{UUID}}/file"]) {
+body[data-bs-theme="light"]:has(a[href*="{{UUID}}"]) {
   /* Core palette (Blueberry v2) */
   --bg-color: #ece8f7;
   --bg-alt: #ded7f0;
@@ -54,7 +54,7 @@ body[data-bs-theme="light"]:has(a[href*="{{UUID}}/file"]) {
 /* ------------------------------
 DAA DARK MODE — Arcane
 ------------------------------ */
-body[data-bs-theme="dark"]:has(a[href*="{{UUID}}/file"]) {
+body[data-bs-theme="dark"]:has(a[href*="{{UUID}}"]) {
   /* Core palette */
   --bg-color: #1f192a;
   --bg-alt: #322a43;
@@ -110,29 +110,29 @@ DAA — SIDEBAR (including UL fix)
 ---------------------------------------------------- */
 
 /* Sidebar UL background fix */
-body[data-bs-theme="light"]:has(a[href*="{{UUID}}/file"]) .side-panel ul,
-body[data-bs-theme="light"]:has(a[href*="{{UUID}}/file"]) .nav-container,
-body[data-bs-theme="light"]:has(a[href*="{{UUID}}/file"]) .side-nav {
+body[data-bs-theme="light"]:has(a[href*="{{UUID}}"]) .side-panel ul,
+body[data-bs-theme="light"]:has(a[href*="{{UUID}}"]) .nav-container,
+body[data-bs-theme="light"]:has(a[href*="{{UUID}}"]) .side-nav {
   background: var(--bg-color) !important;
 }
 
 /* Sidebar panel */
-body:has(a[href*="{{UUID}}/file"]) .side-panel {
+body:has(a[href*="{{UUID}}"]) .side-panel {
   background: var(--sidebar-bg) !important;
 }
 
 /* Sidebar links */
-body:has(a[href*="{{UUID}}/file"]) .side-nav .nav-item a {
+body:has(a[href*="{{UUID}}"]) .side-nav .nav-item a {
   color: var(--sidebar-text) !important;
 }
 
 /* Sidebar hover */
-body:has(a[href*="{{UUID}}/file"]) .side-nav .nav-item:hover {
+body:has(a[href*="{{UUID}}"]) .side-nav .nav-item:hover {
   background: var(--sidebar-hover) !important;
 }
 
 /* Fix white background behind Files nav-item */
-body[data-bs-theme="light"]:has(a[href*="{{UUID}}/file"])
+body[data-bs-theme="light"]:has(a[href*="{{UUID}}"])
   .side-panel
   .side-nav
   .nav-item {
@@ -143,17 +143,17 @@ body[data-bs-theme="light"]:has(a[href*="{{UUID}}/file"])
 DAA — HEADER OVERRIDES
 ---------------------------------------------------- */
 
-body:has(a[href*="{{UUID}}/file"]) #header,
-body:has(a[href*="{{UUID}}/file"]) .top-header,
-body:has(a[href*="{{UUID}}/file"]) .navbar,
-body:has(a[href*="{{UUID}}/file"]) .sf-header {
+body:has(a[href*="{{UUID}}"]) #header,
+body:has(a[href*="{{UUID}}"]) .top-header,
+body:has(a[href*="{{UUID}}"]) .navbar,
+body:has(a[href*="{{UUID}}"]) .sf-header {
   background: var(--bg-alt) !important;
   color: var(--icon-color) !important;
 }
 
 /* Header SVG recolor */
-body:has(a[href*="{{UUID}}/file"]) #header svg *,
-body:has(a[href*="{{UUID}}/file"]) .top-header svg * {
+body:has(a[href*="{{UUID}}"]) #header svg *,
+body:has(a[href*="{{UUID}}"]) .top-header svg * {
   fill: var(--icon-color) !important;
   stroke: var(--icon-color) !important;
 }
@@ -162,9 +162,9 @@ body:has(a[href*="{{UUID}}/file"]) .top-header svg * {
 DAA — ICONS (font icons)
 ---------------------------------------------------- */
 
-body:has(a[href*="{{UUID}}/file"]) .sf3-font,
-body:has(a[href*="{{UUID}}/file"]) .sf-icon,
-body:has(a[href*="{{UUID}}/file"]) .fa {
+body:has(a[href*="{{UUID}}"]) .sf3-font,
+body:has(a[href*="{{UUID}}"]) .sf-icon,
+body:has(a[href*="{{UUID}}"]) .fa {
   color: var(--icon-color) !important;
 }
 
@@ -172,7 +172,7 @@ body:has(a[href*="{{UUID}}/file"]) .fa {
 DAA — MULTICOLOR SVG ICON FIX
 ---------------------------------------------------- */
 
-body:has(a[href*="{{UUID}}/file"]) svg.seafile-multicolor-icon * {
+body:has(a[href*="{{UUID}}"]) svg.seafile-multicolor-icon * {
   fill: var(--icon-color) !important;
   stroke: var(--icon-color) !important;
 }
@@ -181,12 +181,12 @@ body:has(a[href*="{{UUID}}/file"]) svg.seafile-multicolor-icon * {
 DAA — POPUP MENU FIX (Settings / System Admin / Logout)
 ---------------------------------------------------- */
 
-body:has(a[href*="{{UUID}}/file"]) #user-info-popup .item {
+body:has(a[href*="{{UUID}}"]) #user-info-popup .item {
   background: var(--bg-alt) !important;
   color: var(--text-color) !important;
 }
 
-body:has(a[href*="{{UUID}}/file"]) #user-info-popup .item:hover {
+body:has(a[href*="{{UUID}}"]) #user-info-popup .item:hover {
   background: var(--row-hover) !important;
   color: var(--link-hover) !important;
 }

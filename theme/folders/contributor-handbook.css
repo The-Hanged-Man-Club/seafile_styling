@@ -5,7 +5,7 @@ body[data-bs-theme="light"]:has(
     a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/Contributor Handbook/"]
   ),
 body[data-bs-theme="light"]:has(
-    a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/file/"]
+    a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/"]
   ) {
   /* Core palette (Blueberry v2) */
   --bg-color: #ece8f7;
@@ -123,7 +123,7 @@ body[data-bs-theme="light"]:has(
   .side-panel
   ul,
 body[data-bs-theme="light"]:has(
-    a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/file/"]
+    a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/"]
   )
   .side-panel
   ul,
@@ -132,7 +132,7 @@ body[data-bs-theme="light"]:has(
   )
   .nav-container,
 body[data-bs-theme="light"]:has(
-    a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/file/"]
+    a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/"]
   )
   .nav-container,
 body[data-bs-theme="light"]:has(
@@ -140,7 +140,7 @@ body[data-bs-theme="light"]:has(
   )
   .side-nav,
 body[data-bs-theme="light"]:has(
-    a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/file/"]
+    a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/"]
   )
   .side-nav {
   background: var(--bg-color) !important;
@@ -149,7 +149,7 @@ body[data-bs-theme="light"]:has(
 /* Sidebar panel */
 body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/Contributor Handbook/"])
   .side-panel,
-body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/file/"]) .side-panel {
+body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/"]) .side-panel {
   background: var(--sidebar-bg) !important;
 }
 
@@ -158,7 +158,7 @@ body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/Contributor Handbook/"])
   .side-nav
   .nav-item
   a,
-body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/file/"])
+body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/"])
   .side-nav
   .nav-item
   a {
@@ -169,7 +169,7 @@ body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/file/"])
 body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/Contributor Handbook/"])
   .side-nav
   .nav-item:hover,
-body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/file/"])
+body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/"])
   .side-nav
   .nav-item:hover {
   background: var(--sidebar-hover) !important;
@@ -183,7 +183,7 @@ body[data-bs-theme="light"]:has(
   .side-nav
   .nav-item,
 body[data-bs-theme="light"]:has(
-    a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/file/"]
+    a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/"]
   )
   .side-panel
   .side-nav
@@ -197,16 +197,16 @@ DAA — HEADER OVERRIDES
 
 body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/Contributor Handbook/"])
   #header,
-body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/file/"]) #header,
+body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/"]) #header,
 body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/Contributor Handbook/"])
   .top-header,
-body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/file/"]) .top-header,
+body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/"]) .top-header,
 body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/Contributor Handbook/"])
   .navbar,
-body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/file/"]) .navbar,
+body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/"]) .navbar,
 body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/Contributor Handbook/"])
   .sf-header,
-body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/file/"]) .sf-header {
+body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/"]) .sf-header {
   background: var(--bg-alt) !important;
   color: var(--icon-color) !important;
 }
@@ -216,15 +216,12 @@ body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/Contributor Handbook/"])
   #header
   svg
   *,
-body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/file/"]) #header svg *,
+body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/"]) #header svg *,
 body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/Contributor Handbook/"])
   .top-header
   svg
   *,
-body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/file/"])
-  .top-header
-  svg
-  * {
+body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/"]) .top-header svg * {
   fill: var(--icon-color) !important;
   stroke: var(--icon-color) !important;
 }
@@ -235,13 +232,13 @@ DAA — ICONS (font icons)
 
 body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/Contributor Handbook/"])
   .sf3-font,
-body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/file/"]) .sf3-font,
+body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/"]) .sf3-font,
 body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/Contributor Handbook/"])
   .sf-icon,
-body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/file/"]) .sf-icon,
+body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/"]) .sf-icon,
 body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/Contributor Handbook/"])
   .fa,
-body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/file/"]) .fa {
+body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/"]) .fa {
   color: var(--icon-color) !important;
 }
 
@@ -252,7 +249,7 @@ DAA — MULTICOLOR SVG ICON FIX
 body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/Contributor Handbook/"])
   svg.seafile-multicolor-icon
   *,
-body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/file/"])
+body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/"])
   svg.seafile-multicolor-icon
   * {
   fill: var(--icon-color) !important;
@@ -266,7 +263,7 @@ DAA — POPUP MENU FIX (Settings / System Admin / Logout)
 body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/Contributor Handbook/"])
   #user-info-popup
   .item,
-body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/file/"])
+body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/"])
   #user-info-popup
   .item {
   background: var(--bg-alt) !important;
@@ -276,7 +273,7 @@ body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/file/"])
 body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/Contributor Handbook/"])
   #user-info-popup
   .item:hover,
-body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/file/"])
+body:has(a[href*="b0b3293c-5d86-40e8-a3ac-61cd74ca662b/"])
   #user-info-popup
   .item:hover {
   background: var(--row-hover) !important;
