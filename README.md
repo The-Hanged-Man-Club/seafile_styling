@@ -43,7 +43,7 @@ Seafile exposes each library’s UUID in the file browser URLs.
 Using the :has() selector, we can detect when the user is inside a specific folder:
 
 ```css
-body:has(a[href*="0782e8ae-0ff7-4ec2-a6ed-5ca70547c093"]) {
+body:has(a[href*="0782e8ae-0ff7-4ec2-a6ed-5ca70547c093/file/"]) {
   /* Theme overrides for this folder */
 }
 ```
